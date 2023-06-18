@@ -1,22 +1,21 @@
 {
-  "intro": "Hej",
+  "intro": "Hello!",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/profile.png",
     "alt": "My Photo"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm a Gatsby Starter",
+  "title": "I'm a Fullstack Software Engineer.",
   "subtitle": {
-    "prefix": "I do all the setup ",
-    "highlight": "for you",
-    "suffix": "."
+    "prefix": "Node.js, React, PHP, Devops, and more",
+    "suffix": "!"
   },
-  "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+  "description": "Jonathan Botros's Personal Site",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": ["LinkedIn", "Github", "Instagram"],
+    "showIcons": true
   }
 }

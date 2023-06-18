@@ -1,7 +1,7 @@
 ---
-title: "This is an exemplary article for the blog."
-description: "This description will be used for the article listing and search results on Google."
-date: "2021-05-28"
+title: "How the Legend of Zelda can learn from it's namesake"
+description: "What the Legend of Zelda can learn from it's namesake to improve it's approach to story telling."
+date: "2023-05-28"
 banner:
   src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
   alt: "First Markdown Post"
@@ -10,7 +10,7 @@ categories:
   - "Setup"
   - "Tutorial"
 keywords:
-  - "Example"
+  - "Zelda"
   - "Gatsby"
   - "Markdown"
   - "Blog"
@@ -49,9 +49,11 @@ keywords:
 
 Inline code: `print()`
 
-Lorem ipsum dolor sit amed Vel ut spiritday all cultural Lili Elbe lorem in sexuality Herstory sit lorem Ac Genderless homoflexible trans Carrie Fisher Transgender love family cross-dresser ac a ut Ac xe she ut Tina Anselmi woman Marina Abramovich Lesbians and Gays Support the Miners Ipsum Chimamanda Ngozi sed sit Equal movement gender ut est lorem Laura Jane Grace Emma Watson sem eu.
-
-**Maria Montessori vel sem in eu Leelah Alcorn** In eu Leelah Alcorn in Margaret Sanger future Martha Nussbaum eu gender non-conformity Family cross-dresser ac a ut representation drag queen Ac third wave Hannah Gadsby culture feminismus ac suffragette cisgender in a eu Ac a ut representation drag queen Out Lorem ac no means no f word sed Emmeline Pankhurst.
+The Legend of Zelda's reputation is one that cannot be understated. What it has done for gaming landscape has impacted so 
+many games and still continues to innovate to this day. However, one area that it has fallen short on, much like many Nintendo
+sereis is the way it has approached storytelling. They are fairly basic most of the time, ussusally saving the damsel in distres or fighting whatever villan has taken over the land that week. In Nintendo's perspective, gameplay takes precedent over story, and they prefer that the player creates stories themselves from the suprises that they see through their time in the game. However,
+I believe if Nintendo takes a look to it's past games and the series namesake, they can find a different and much more 
+engaging approach to story telling while still making sure that gameplay also retains a priority.
 
 ## Second Headline
 
