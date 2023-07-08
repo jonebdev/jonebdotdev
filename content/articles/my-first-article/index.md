@@ -1,14 +1,13 @@
 ---
-title: "How the Legend of Zelda can learn from it's namesake"
-description: "What the Legend of Zelda can learn from it's namesake to improve it's approach to story telling."
-date: "2023-05-28"
-banner:
-  src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
-  alt: "First Markdown Post"
-  caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
+title: "Zelda's unlikely connection to The Great Gatsby: How the Legend of Zelda can learn from it's namesakes"
+description: "What the Legend of Zelda can learn from it's namesakes to improve it's approach to story telling."
+date: "2023-07-08"
+# banner:
+#   # src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
+#   alt: "Z"
+#   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
-  - "Setup"
-  - "Tutorial"
+  - "Zelda"
 keywords:
   - "Zelda"
   - "Gatsby"
@@ -16,61 +15,32 @@ keywords:
   - "Blog"
 ---
 
-## Code block test
 
-```css
-.AClass .Subtitle {
-  margin: -0.5rem 0 0 0;
-  font-weight: 700;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-}
+The Legend of Zelda's reputation is one that cannot be understated. What it has done for the gaming landscape has impacted so many games and still continues to innovate to this day. However, one area that it has fallen short on, much like many Nintendo series, is the way it has approached storytelling. They are fairly basic most of the time, usually saving the damsel in distress or fighting whatever villain has taken over the land that week. Despite The Legend of Zelda on the Nintendo Entertainment System being one of the first games to establish a narrative around the events that happen in the games, the series is not known for its storytelling. In Nintendo's perspective, gameplay takes precedence over story, and they prefer that the player creates stories themselves from the surprises that they see through their time in the game. However, I believe if Nintendo takes a look at its past games and the series namesake, they can find a different and much more engaging approach to storytelling while still making sure that gameplay also retains a priority. By looking deeper at the series roots and namesake, we can find that the series can take a much more engaging approach to the way it tells its stories.
 
-.AnotherClass p {
-  font-size: 1.125rem;
-  margin-bottom: 2rem;
-}
 
-.AThirdClass {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+## The Origin of their namesakes
 
-@media (max-width: 768px) {
-  .AClass {
-    flex-direction: column;
-  }
-  .AnotherClass {
-    display: block;
-  }
-}
-```
 
-Inline code: `print()`
+The series namesake, Zelda, was not named after anything in particular but rather, it was named after F. Scott Fitzgerald's wife, Zelda Fitzgerald, since the series creator really gravitated towards that name.
 
-The Legend of Zelda's reputation is one that cannot be understated. What it has done for gaming landscape has impacted so 
-many games and still continues to innovate to this day. However, one area that it has fallen short on, much like many Nintendo
-sereis is the way it has approached storytelling. They are fairly basic most of the time, ussusally saving the damsel in distres or fighting whatever villan has taken over the land that week. In Nintendo's perspective, gameplay takes precedent over story, and they prefer that the player creates stories themselves from the suprises that they see through their time in the game. However,
-I believe if Nintendo takes a look to it's past games and the series namesake, they can find a different and much more 
-engaging approach to story telling while still making sure that gameplay also retains a priority.
 
-## Second Headline
+> There's a famous American author whose wife's name is Zelda. How about giving that name to eternal beauty? - Shigeru Miyamoto
 
-Est vel est appreciation Nadia Murad Basee Taha cross-dressing vel Ut mi sit ut eu id Samira Wiley sit vel sem Ut romance in gender studies ballroom Sit lorem ac no means no f word sed Emmeline Pankhurst Ac sorellanza In Lea Delaria in grrlpwr pansexual intersectional yas queen diritti id mi Sem Audre Lorde Sappho in sed et empowerment genderqueer intersex.
 
-![This is the alt tag.](../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg "This is a markdown [caption](https://konstantin.digital).")
+F. Scott Fitzgerald was an author, most well known for authoring the great American classic novel, the Great Gatsby. In this book, it follows the interactions between Nick Carraway and Jay Gatsby, and his pursuit to reclaim his former love, Daisy Buchannon, Nick Carraway's cousin. What is most peculiar, despite the book being exclusively about Jay Gatsby, the book is narrated by Nick Carraway, who has little to no agency on the events of the book, he is merely just an observer. Despite this, I believe this particular point of view in the way the story was told was the most optimal, because the readers get to see the view of the story from the side of Gatsby, who has been blinded by his love for Daisy and we get to also as well see Daisy's point of view, and her true nature that is not clouded by Jay Gatsby's rose tinted glasses. If this story was told in either Daisy or Jay's point of view, we would get a drastically different picture, clouded by both of their biases, and the impact wouldn't be as compelling since we see both sides of their tragic story. The Great Gatsby proved that an engaging story can be told even if the narration is done by an observer of the main events.
 
-Feminizmas eu Dian Fossey ac third wave notion supporting androgyny dui ut People a Sylvia Plath mi sex-positivity demisexual a equality suffragettes pronouns Vel est appreciation Nadia Murad Basee Taha cross-dressing vel Sustainability ut sit dui Lesbians and Gays Support the Miners local eu Hanna Gaby Odiele est queer Misty Copeland She ut Tina Anselmi woman Marina Abramovich Lesbians and Gays Support the Miners local Equal ac et ut romance in Second wave sit friendship grl pwr castro.
 
-### Third Headline
+Like Nick Carraway, the protagonist in every Zelda game, Link is oftentimes an observer to the things around him. Link, by design, is a silent protagonist, and doesn't really have any agency to the events around him, but rather is following along with the driving narrative to save the princess or whoever needs his help at that point in time. The name Link was chosen because the protagonist was supposed to "bring people together", and be a conduit so that the emotions and thrills that you find during gameplay come artificially from the player's experiences. Instead of Link showing the emotions and impacts directly to the player, it would be the player themselves, with Link being the "link" so to speak to the player and the gameplay. This was at first, out of technical limitations, since the NES was not known for its games with storytelling prowess, but as time went on, Nintendo has stuck to this limitation, opting to still make Link a silent protagonist in the latest game as of this writing, Tears of the Kingdom, with no signs of stopping.
 
-Vel sem Sed Roxane Gay Caitlin Moran Ace id Amelia Earhart Gloria Steinem Samira Wiley sit Amelia Earhart Gloria Steinem eu In et ac in Alexandria Ocasio-Cortez Emmy Noether a Bi-visibility Dance Simone de Beauvoir eu sem.
+### The approach
 
-#### Fourth Headline
+Even though the story writing in most Zelda games is quite shallow with some exceptions, I still think with a proper strategy, this approach to a silent protagonist can still work, and it has been proven with "The Great Gatsby" since we have seen that taking a more nuanced approach to narration has shown that a compelling story can still be told, even if it isn't told by one of the main characters experiencing said conflict. Nick is by no means the catalyst of events occuring in the narrative of Gatsby, and certainly does have his biases, but by being in the middle of the action, we get to experience the story in a unique way. Because the unique medium of video games changes the way that a person experiences a narrative, there is an opportunity to tell a story that doesn't have to be told by the main character. The player is experiencing the world, characters and circumstances around them, and they can observe the world in a different way that a typical novel or movie would not be able to do. Since Link is how we can experience the world of Hyrule and all its mystery, there is an unique opportunity to experience the story in a unique way without sacrificing the gameplay that makes the series dear to so many. We as the player can come to the emotions that we feel, while still having engaging gameplay, and still keeping the tradition of having a silent protagonist, since we as players are merely observers to the things happening in game, and that can be reflected onto the protagonist themselves.
 
-Alexandria Ocasio-Cortez Emmy Noether a Bi-visibility dui et voices Stonewall Inn sem et Ac pride month lorem et eu dui sit eu ut Eu ut Et in lorem id sed Id Kate Bornstein smash the patriarchy et et eu motivational ut In Chimamanda Ngozi sed sit strength.
+Instead of having a damsel in distress story be the driving force as to why Link is going on his adventures, Nintendo has a unique opportunity to make a story where the player is incentivized to go and seek out the world around him, not just for a magical macguffin that will make the player more powerful. Hyrule’s main draw is its vast world to explore, so instead of just having the world be a sandbox for more collectibles, why not flesh it out with more landmarks, and give an opportunity to learn more about the lore of the world and background, and get more impactful stories around the places we explore around us? The world of Hyrule can serve as a way to communicate to the player and give background to events that have happened in the past, which can flesh out the world and give it deeper context. This in of itself is rewarding, since as a player, we get that much more of a reward for exploring the vast world of Hyrule.
 
-![This is the alt tag.](../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg)
+The Zelda series has been known for its vast array of companion characters that serve to help the player, but in practice, it’s hurt the experience and lately, Nintendo has opted to not include companions in most recent games. Rather than a guide character explaining plot details, enemy strategies and puzzle hints from time to time, we can have characters we explore with that have real movivations other than "let's save the princess!". Having them communicate with us, and give us a bit more character interactions outside of cutscenes can make the experience more engaging, and further our knowledge of the vast cast of characters we come across in game. Like the approach The Great Gatsby took, we as the observer have the opportunity to view a conflict from multiple points of view, and that would be uncharted territory for Zelda. 
 
-Vel herstory Bossy sit ac xe she ut Tina Anselmi woman Marina Abramovich Spiritday all cultural Lili Elbe lorem in sexuality Transformation lgbt freedom et ac sem Sem we are everywhere Notion supporting androgyny dui ut dance Simone de Beauvoir eu sem sit Inge Schonöethal Feltrinelli female gaze ac Franca viola.
+I don't think this approach is impossible, as some of the most impactful video games that tell a compelling story have come out in recent years, such as Santa Monica Studios God of War and Insomniac's Spiderman. They take the approach that even if gameplay in those games is the number one focus, they still tell an engaging story through great writing, great characterization, and masterful world building. This entices the player to continue to play not just for the gameplay but as well as the story, because neither was an after thought for the developers.
+
+It's not like Zelda hasn't taken this approach to deep storytelling before either. I mentioned previously there were some exceptions to storytelling not taking a backseat, and these games would have to be Link's Awakening and Majora's Mask. Both use their gameplay mechanics to their strength and craft interesting worlds that are highly regarded to be some of the best stories in the series. Link's Awakening is a favorite of mine for the story it tells, and it achieved that despite being on the original Game Boy. Despite the two most recent titles, Breath of the Wild and Tears of the Kingdom having voice acted characters, I still believe from my playtime that the story still takes a backseat to gameplay. The Calamity and the Upheaval are described as major issues in the game, but despite the fact, a lot of the town and the NPCs all act like there is nothing really going on. Not having a deep story does not hurt the quality of these two games in any way, but we could have a much more engaging game that has higher stakes, better character relationships and a much more engaging story because now, we have the technology to do so.
