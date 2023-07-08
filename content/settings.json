@@ -6,8 +6,8 @@
     "titleTemplate": "%s · Jon Botros",
     "description": "Jonathan Botros's personal site.",
     "author": "Jonathan Botros",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "I am a software engineer.",
+    "avatar": "../content/images/profile.png",
+    "bio": "",
     "social": {
       "github": "https://github.com/jonebdev",
       "linkedin": "https://www.linkedin.com/in/joneb/"
