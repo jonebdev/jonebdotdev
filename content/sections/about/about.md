@@ -11,4 +11,4 @@ Using theme composition, you can easily customize the CSS theme to your own pref
 
 Last but not least, it has some cool features you can opt-in to: Dark Mode, Splash Screen, Cookie Banner, and more to find out :) -->
 
-My name is Jonathan Botros and I have been a fulltime Full Stack Software Engineer for the past 4 years. I have experience with Node.js, React, React Native, PHP, Typescript and more. In my free time, I like to play video games, work on side projects and draw.
+My name is Jonathan Botros and I have been a fulltime Full Stack Software Engineer for the past 4 years. I have experience with Node.js, Kubernetes, React, React Native, PHP, Typescript and more. In my free time, I like to play video games, work on side projects and draw.
