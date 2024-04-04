@@ -7,10 +7,10 @@
     "description": "Jonathan Botros's personal site.",
     "author": "Jonathan Botros",
     "avatar": "../content/images/profile.png",
-    "bio": "",
+    "bio": "Software Engineer",
     "social": {
       "github": "https://github.com/jonebdev",
-      "linkedin": "https://www.linkedin.com/in/joneb/"
+      "linkedin": "https://www.linkedin.com/in/joneb/",
     }
   },
   "siteConfiguration": {
