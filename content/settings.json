@@ -25,7 +25,7 @@
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/JonathanBotrosResume.pdf"
+        "url": "Jonathan_Botros_Resume.pdf"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" }
