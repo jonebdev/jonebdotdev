@@ -5,9 +5,8 @@ date: "2023-07-08"
 # banner:
 #   # src: "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg"
 #   alt: "Z"
-#   caption: 'Photo by <u><a href="https://unsplash.com/photos/Nc5Q_CEcY44">Florian Olivo</a></u>'
 categories:
-  - "Zelda"
+  - "Video Games"
 keywords:
   - "Zelda"
   - "Gatsby"
@@ -18,18 +17,13 @@ keywords:
 
 The Legend of Zelda's reputation is one that cannot be understated. What it has done for the gaming landscape has impacted so many games and still continues to innovate to this day. However, one area that it has fallen short on, much like many Nintendo series, is the way it has approached storytelling. They are fairly basic most of the time, usually saving the damsel in distress or fighting whatever villain has taken over the land that week. Despite The Legend of Zelda on the Nintendo Entertainment System being one of the first games to establish a narrative around the events that happen in the games, the series is not known for its storytelling. In Nintendo's perspective, gameplay takes precedence over story, and they prefer that the player creates stories themselves from the surprises that they see through their time in the game. However, I believe if Nintendo takes a look at its past games and the series namesake, they can find a different and much more engaging approach to storytelling while still making sure that gameplay also retains a priority. By looking deeper at the series roots and namesake, we can find that the series can take a much more engaging approach to the way it tells its stories.
 
-
 ## The Origin of their namesakes
-
 
 The series namesake, Zelda, was not named after anything in particular but rather, it was named after F. Scott Fitzgerald's wife, Zelda Fitzgerald, since the series creator really gravitated towards that name.
 
-
 > There's a famous American author whose wife's name is Zelda. How about giving that name to eternal beauty? - Shigeru Miyamoto
 
-
 F. Scott Fitzgerald was an author, most well known for authoring the great American classic novel, the Great Gatsby. In this book, it follows the interactions between Nick Carraway and Jay Gatsby, and his pursuit to reclaim his former love, Daisy Buchannon, Nick Carraway's cousin. What is most peculiar, despite the book being exclusively about Jay Gatsby, the book is narrated by Nick Carraway, who has little to no agency on the events of the book, he is merely just an observer. Despite this, I believe this particular point of view in the way the story was told was the most optimal, because the readers get to see the view of the story from the side of Gatsby, who has been blinded by his love for Daisy and we get to also as well see Daisy's point of view, and her true nature that is not clouded by Jay Gatsby's rose tinted glasses. If this story was told in either Daisy or Jay's point of view, we would get a drastically different picture, clouded by both of their biases, and the impact wouldn't be as compelling since we see both sides of their tragic story. The Great Gatsby proved that an engaging story can be told even if the narration is done by an observer of the main events.
-
 
 Like Nick Carraway, the protagonist in every Zelda game, Link is oftentimes an observer to the things around him. Link, by design, is a silent protagonist, and doesn't really have any agency to the events around him, but rather is following along with the driving narrative to save the princess or whoever needs his help at that point in time. The name Link was chosen because the protagonist was supposed to "bring people together", and be a conduit so that the emotions and thrills that you find during gameplay come artificially from the player's experiences. Instead of Link showing the emotions and impacts directly to the player, it would be the player themselves, with Link being the "link" so to speak to the player and the gameplay. This was at first, out of technical limitations, since the NES was not known for its games with storytelling prowess, but as time went on, Nintendo has stuck to this limitation, opting to still make Link a silent protagonist in the latest game as of this writing, Tears of the Kingdom, with no signs of stopping.
 
@@ -39,7 +33,7 @@ Even though the story writing in most Zelda games is quite shallow with some exc
 
 Instead of having a damsel in distress story be the driving force as to why Link is going on his adventures, Nintendo has a unique opportunity to make a story where the player is incentivized to go and seek out the world around him, not just for a magical macguffin that will make the player more powerful. Hyrule’s main draw is its vast world to explore, so instead of just having the world be a sandbox for more collectibles, why not flesh it out with more landmarks, and give an opportunity to learn more about the lore of the world and background, and get more impactful stories around the places we explore around us? The world of Hyrule can serve as a way to communicate to the player and give background to events that have happened in the past, which can flesh out the world and give it deeper context. This in of itself is rewarding, since as a player, we get that much more of a reward for exploring the vast world of Hyrule.
 
-The Zelda series has been known for its vast array of companion characters that serve to help the player, but in practice, it’s hurt the experience and lately, Nintendo has opted to not include companions in most recent games. Rather than a guide character explaining plot details, enemy strategies and puzzle hints from time to time, we can have characters we explore with that have real movivations other than "let's save the princess!". Having them communicate with us, and give us a bit more character interactions outside of cutscenes can make the experience more engaging, and further our knowledge of the vast cast of characters we come across in game. Like the approach The Great Gatsby took, we as the observer have the opportunity to view a conflict from multiple points of view, and that would be uncharted territory for Zelda. 
+The Zelda series has been known for its vast array of companion characters that serve to help the player, but in practice, it’s hurt the experience and lately, Nintendo has opted to not include companions in most recent games. Rather than a guide character explaining plot details, enemy strategies and puzzle hints from time to time, we can have characters we explore with that have real motivations other than "let's save the princess!". Having them communicate with us, and give us a bit more character interactions outside of cutscenes can make the experience more engaging, and further our knowledge of the vast cast of characters we come across in game. Like the approach The Great Gatsby took, we as the observer have the opportunity to view a conflict from multiple points of view, and that would be uncharted territory for Zelda.
 
 I don't think this approach is impossible, as some of the most impactful video games that tell a compelling story have come out in recent years, such as Santa Monica Studios God of War and Insomniac's Spiderman. They take the approach that even if gameplay in those games is the number one focus, they still tell an engaging story through great writing, great characterization, and masterful world building. This entices the player to continue to play not just for the gameplay but as well as the story, because neither was an after thought for the developers.
 
