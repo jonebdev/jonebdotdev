@@ -42,7 +42,7 @@
   ],
   "button": {
     "visible": true,
-    "label": "Visit on Github",
+    "label": "See more on my Github",
     "url": "https://github.com/jonebdev/"
   }
 }
