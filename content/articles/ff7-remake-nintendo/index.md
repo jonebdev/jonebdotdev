@@ -20,7 +20,6 @@ Nintendo is not shy to doing traditional remakes and remasters, as there are ple
 
 <img src="https://www.zeldadungeon.net/wiki/images/f/fb/OoT_logo.png" width=100%></img>
 
-
 The Legend of Zelda: Ocarina of Time is one of the most important games of all time, and it's impact cannot be understated. This game has already been remade, with The Legend of Zelda: Ocarina of Time 3D which is one of the best remakes of all time in my opinion, however this remake doesn't change any of the source material (In fact, it uses some of the original games' code!). Looking a bit deeper, the game had a tumultuous development, changing platforms midway through development from the failed Nintendo 64DD to the base Nintendo 64, with large amounts of cut content and gameplay concepts. There was even a planned expansion for the game, Ura Zelda, but that never came to pass.
 
 After playing the remake myself, I think that there are things that Ocarina of Time does allot better than future titles, but also areas where it ages poorly, such as enemy design and combat. With the learnings from future titles such as Breath of the Wild, I think that revisiting this game could make for an interesting experience.
