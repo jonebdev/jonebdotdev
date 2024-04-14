@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.95\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.95\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+\begin{center}
+    \textbf{\Large \scshape Jonathan Botros} \\ \vspace{1pt}
+    \href{https://joneb.dev}{\underline{joneb.dev}} $|$
+    \small  \href{mailto:jbotros7@gmail.com}{\underline{jbotros7@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/joneb}{\underline{linkedin.com/in/joneb}} $|$
+    \href{https://github.com/jonebdev}{\underline{github.com/jonebdev}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {New Jersey Institute of Technology}{Newark, NJ}
+      {Bachelor of Arts in Computer Science}
+      {September 2016 -- May 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    % \resumeSubheading
+    %   {Undergraduate Research Assistant}{June 2020 -- Present}
+    %   {Texas A\&M University}{College Station, TX}
+    %   \resumeItemListStart
+    %     \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
+    %     \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+    %     \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+    %   \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+% -------------------------------------------
+
+    \resumeSubheading
+      {Lead Software Engineer}{April 2023 -- Present}
+      {Kenvue (Formerly Known as Johnson \& Johnson Consumer Health)}{Skillman, NJ}
+      \resumeItemListStart
+        \resumeItem{Lead Platform Engineer for Kenvue's Developer Portal, built with Typescript, React and Express.js, through Backstage.io, an open source framework for building developer portals. The portal enables hundreds of Kenvue's teams to catalog their projects, request CI/CD tooling, view documentation and create new projects via templates. }
+        \resumeItem{Leading creation of Software Engineering templates for Kenvue's internal developer portal. Through filling out
+         a form, new projects created from templates come enabled with logging, linting, unit tests and Jenkins pipelines.}
+        \resumeItem{Enabling Software Engineering standards \& best practices across Kenvue, giving guidance  
+        for adoption of lightweight, containerized microservices. Containerized lubriderm.com, motrin.com and several other
+        key brand websites used by thousands of users and deployed them on to a shared Kubernetes cluster as a part of this effort. }
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Software Developer}{May 2022 -- March 2023}
+      {Johnson \& Johnson}{Raritan, NJ}
+      \resumeItemListStart
+        \resumeItem{Developed an internal mobile application for labeling images built with React Native, where the data generated from the application trained 10+ supervised machine learning models to be used in future Ethicon medical devices.}
+        \resumeItem{Implemented CI/CD Jenkins pipeline for the web portal, including unit tests, code linting, SonarQube static 
+        
+        analysis, and deployment to EC2 environments, boosting developer efficiency \& faster releases.}
+        \resumeItem{Rearchitected frontend web portal with React.js solution built with Vite, Tailwind and Typescript for the data
+        
+         science team to visualize data captured from the mobile app and carry out administrative tasks more effectively.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Developer}{June 2020 -- May 2022}
+      {Johnson \& Johnson}{Raritan, NJ}
+      \resumeItemListStart
+        \resumeItem{ Lead Backend PHP Developer for Care4Today, a mobile app that connected patients to their doctor to keep track
+        
+        of symptoms, medication and appointments. New trackers were created so that those metrics could be aggregated 
+        
+        to generate a Risk Score, which resulted in 100 plus new sites onboarded for clinical studies.}
+        \resumeItem{ Developed serverless Node.js REST API for an internal mobile app to retrieve hashed codes stored in a PostgreSQL database for the Janssen Covid Vaccine, so lab workers can determine if the vaccine was expired.}
+        \resumeItem{ Backend Node.JS Developer for the J\&J API Catalog,  which hosts over 150 APIs across Johnson \& Johnson for internal discovery. Developed CI/CD tools to enable teams to upload their OpenAPI docs to the API Catalog. }
+      \resumeItemListEnd
+        \resumeSubheading
+      {Software Engineering Co-op}{June 2019 -- December 2019}
+      {Johnson \& Johnson}{Raritan, NJ}
+      \resumeItemListStart
+        \resumeItem{ Migrated 10+ APIs from the Apigee Trireme hosting
+service to Apigee’s Hosted Targets server solution, and 
+
+provided support for 4 overseas teams to migrate their APIs for a critical API Migration project.}
+        \resumeItem{ Full Stack Developer for an internal developer application, developed with Node.js \& React. The system provided 
+        
+        a centralized source of data pooled from CI/CD tooling, resulting in valuable metrics for over 100+ J\&J projects.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{Spotify to Apple Music Playlist Converter} $|$ \emph{React, Node.js}}
+          {}
+          \resumeItemListStart
+            \resumeItem{ REST API \& Frontend web application that can take a playlist from Apple Music or Spotify and be able to migrate that playlist to the other respective service. Integrated with both the Apple Music and Spotify REST APIs.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Color Fun Run} $|$ \emph{PHP, HTML, Javascript, MySQL}}{}
+          \resumeItemListStart
+            \resumeItem{ Registration form for an charity event that integrated with the Paypal SDK that allowed users to register and pay for an annual color run. User info was stored in a database and the event team was notified when a person registered via email. The event had 180+ attendees and raised \$12,000 to build wells for the needy in Africa.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Javascript, Typescript, Python, PHP, Bash, PostgreSQL, Java, HTML, CSS, Groovy} \\
+     \textbf{Frameworks}{: React, Express.js, Next.js, React Native, FastAPI, Symfony, Backstage} \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Jenkins, Vite, AWS, Apigee, VSCode, Jenkins, Jira, Helm, Snyk, ArgoCD} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
