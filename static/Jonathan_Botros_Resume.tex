@@ -1,4 +1,4 @@
-%-------------------------
+%-------------------------     
 % Resume in Latex
 % Author : Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
@@ -30,7 +30,7 @@
 
 % serif
 % \usepackage{CormorantGaramond}
-% \usepackage{charter}
+\usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -40,8 +40,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
 \addtolength{\textheight}{1.0in}
@@ -55,7 +55,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -68,9 +68,17 @@
   }
 }
 
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{0.95\textwidth}[t]{l@{\extracolsep{\fill}}r}
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -78,7 +86,7 @@
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
-    \begin{tabular*}{0.95\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -90,14 +98,14 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-0pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-10pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -152,80 +160,100 @@
     \resumeSubheading
       {Lead Software Engineer}{April 2023 -- Present}
       {Kenvue (Formerly Known as Johnson \& Johnson Consumer Health)}{Skillman, NJ}
-      \resumeItemListStart
-        \resumeItem{Lead Platform Engineer for Kenvue's Developer Portal, built with Typescript, React and Express.js, through Backstage.io, an open source framework for building developer portals. The portal enables hundreds of Kenvue's teams to catalog their projects, request CI/CD tooling, view documentation and create new projects via templates. }
-        \resumeItem{Leading creation of Software Engineering templates for Kenvue's internal developer portal. Through filling out
-         a form, new projects created from templates come enabled with logging, linting, unit tests and Jenkins pipelines.}
-        \resumeItem{Enabling Software Engineering standards \& best practices across Kenvue, giving guidance  
-        for adoption of lightweight, containerized microservices. Containerized lubriderm.com, motrin.com and several other
-        key brand websites used by thousands of users and deployed them on to a shared Kubernetes cluster as a part of this effort. }
+      \resumeItemListStart[leftmargin=0.15in]
+        \resumeItem{Spearheaded development of Kenvue's Developer Portal using Typescript, React, Express.js and Backstage.io, serving 100+ teams that enable users to catalog their projects, view documentation, and create new projects via templates. }
+        \resumeItem{Created and maintained 5+ Software templates that integrate logging, linting, unit tests, and CI/CD pipelines.}
+        \resumeItem{Migrated the developer portal from an EC2 to a Kubernetes cluster, establishing a Jenkins pipeline for multi-environment deployment via ArgoCD, reducing the release process from hours to minutes.}
+        \resumeItem{Provided guidance and solution architecture for 3 teams in the commercial sector, ensuring adherence to best practices.}
+        \resumeItem{Promoted the adoption of containerized static websites, resulting in the deployment of key brand websites with 1000+ visitors to a shared Kubernetes cluster, enhancing scalability, reducing costs, and increasing performance. }
     \resumeItemListEnd
 
     \resumeSubheading
       {Senior Software Developer}{May 2022 -- March 2023}
       {Johnson \& Johnson}{Raritan, NJ}
-      \resumeItemListStart
-        \resumeItem{Developed an internal mobile application for labeling images built with React Native, where the data generated from the application trained 10+ supervised machine learning models to be used in future Ethicon medical devices.}
-        \resumeItem{Implemented CI/CD Jenkins pipeline for the web portal, including unit tests, code linting, SonarQube static 
-        
-        analysis, and deployment to EC2 environments, boosting developer efficiency \& faster releases.}
-        \resumeItem{Rearchitected frontend web portal with React.js solution built with Vite, Tailwind and Typescript for the data
-        
-         science team to visualize data captured from the mobile app and carry out administrative tasks more effectively.}
+      \resumeItemListStart[leftmargin=0.15in]
+        \resumeItem{ Engineered a React Native app for image labeling, accelerating the training of over 10 AI models for robotic surgery.}
+        \resumeItem{Implemented CI/CD Jenkins pipeline for the mobile app web portal, incorporating unit tests, linting, static analysis, and deployment, boosting release efficiency and incorporating best practices in code quality and deployment.}
+        \resumeItem{ Enhanced app performance for the app's REST API, removing 300 code smells, and increasing unit test coverage by 50\%.}
+        \resumeItem{ Rewrote web portal using React, TypeScript, and Tailwind, improving data visualization and administrative functionality.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Software Developer}{June 2020 -- May 2022}
       {Johnson \& Johnson}{Raritan, NJ}
-      \resumeItemListStart
-        \resumeItem{ Lead Backend PHP Developer for Care4Today, a mobile app that connected patients to their doctor to keep track
-        
-        of symptoms, medication and appointments. New trackers were created so that those metrics could be aggregated 
-        
-        to generate a Risk Score, which resulted in 100 plus new sites onboarded for clinical studies.}
-        \resumeItem{ Developed serverless Node.js REST API for an internal mobile app to retrieve hashed codes stored in a PostgreSQL database for the Janssen Covid Vaccine, so lab workers can determine if the vaccine was expired.}
+      \resumeItemListStart[leftmargin=0.15in]
+        \resumeItem{ Lead backend PHP development for the Care4Today app which tracks patient symptoms, medication, and appointments. Created new trackers to generate risk scores, facilitating the onboarding of 100+ new clinical offices for research studies}
+        \resumeItem{ Supported 3 other developers on the Care4Today backend team. Debugged issues with Jenkins builds, reviewed and debugged code with team, reduced tech debt by 30\% and led initiative to increase unit tests by 10\% across the project.}
+        \resumeItem{ Developed serverless Node.js REST API for an internal mobile app to retrieve hashed bar codes stored in a PostgreSQL database for the J\&J Covid Vaccine, so lab workers can determine if the vaccine was expired.}
         \resumeItem{ Backend Node.JS Developer for the J\&J API Catalog,  which hosts over 150 APIs across Johnson \& Johnson for internal discovery. Developed CI/CD tools to enable teams to upload their OpenAPI docs to the API Catalog. }
       \resumeItemListEnd
         \resumeSubheading
       {Software Engineering Co-op}{June 2019 -- December 2019}
       {Johnson \& Johnson}{Raritan, NJ}
-      \resumeItemListStart
-        \resumeItem{ Migrated 10+ APIs from the Apigee Trireme hosting
-service to Apigee’s Hosted Targets server solution, and 
-
-provided support for 4 overseas teams to migrate their APIs for a critical API Migration project.}
-        \resumeItem{ Full Stack Developer for an internal developer application, developed with Node.js \& React. The system provided 
-        
-        a centralized source of data pooled from CI/CD tooling, resulting in valuable metrics for over 100+ J\&J projects.}
+      \resumeItemListStart[leftmargin=0.15in]
+        \resumeItem{ Transitioned 10+ APIs from Apigee Trireme to Apigee Hosted Targets and wrote documentation for teams on how to migrate their APIs. Supporting 4 overseas teams in a critical API migration project. }
+        \resumeItem{ Full Stack Developer for an internal developer application, developed with Node.js \& React. The system provided a centralized source of data pooled from CI/CD tooling, resulting in valuable metrics for over 100+ J\&J projects.}
       \resumeItemListEnd
+
+      \resumeSubheading
+      {IT Intern}{May 2018 -- August 2018}
+      {NJM Insurance}{West Trenton, NJ}
+      \resumeItemListStart[leftmargin=0.15in]
+        \resumeItem{ Contributed to Selenium-based Automation Framework Tool using AngularJS, Java, and SQL, significantly enhancing automated QA testing and improving customer service tools for sales reps, leading to higher car insurance sign-ups.}
+      \resumeItemListEnd
+  
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
+        % \resumeProjectHeading
+        % {\textbf{joneb.dev} $|$ \emph{React, HTML, Javascript, Markdown}}{}
+        % \resumeItemListStart[leftmargin=0.15in]
+        %   \resumeItem{ Personal site and blog created with Gatsby, React and TypeScript.}
+        % \resumeItemListEnd
+        % \resumeProjectHeading
+        %   {\textbf{Playlist Converter} $|$ \emph{React, Node.js}   }
+        %   {}
+        %   \resumeItemListStart[leftmargin=0.15in]
+        %     \resumeItem{ Created website to migrate playlists between Spotify and Apple Music that integrated with both platforms' REST APIs.} 
+        %   \resumeItemListEnd
         \resumeProjectHeading
-          {\textbf{Spotify to Apple Music Playlist Converter} $|$ \emph{React, Node.js}}
-          {}
-          \resumeItemListStart
-            \resumeItem{ REST API \& Frontend web application that can take a playlist from Apple Music or Spotify and be able to migrate that playlist to the other respective service. Integrated with both the Apple Music and Spotify REST APIs.}
+          {\textbf{Youth Registration Form} $|$ \emph{React, Javascript}}{}
+          \resumeItemListStart[leftmargin=0.15in]
+            \resumeItem{ Built a serverless registration form for a church youth group of 50 teenagers, reducing paper waste and cutting costs.}
           \resumeItemListEnd
         \resumeProjectHeading
           {\textbf{Color Fun Run} $|$ \emph{PHP, HTML, Javascript, MySQL}}{}
-          \resumeItemListStart
-            \resumeItem{ Registration form for an charity event that integrated with the Paypal SDK that allowed users to register and pay for an annual 
-            color run. User info was stored in a database and the event team was notified when a person registered via email. The event had 180+ attendees and raised \$12,000 to build wells for the needy in Africa.}
-          \resumeItemListEnd
+          \resumeItemListStart[leftmargin=0.15in]
+            \resumeItem{ Created registration form for a charity event which integrated with the Paypal SDK and sent an email notification whenever someone registered. The event had 180+ attendees, and raised \$12,000 for clean water projects.}
+          \resumeItemListEnd  
+        % \resumeItemListStart[leftmargin=0.15in]
+        %   \resumeItem{\textbf{joneb.dev:} Personal website and blog created with Gatsby, React and TypeScript.}
+        %   \resumeItem{\textbf{Playlist Converter:}  Web app that migrates playlists between Spotify and Apple Music that integrated with both platforms' REST APIs.}
+        %   \resumeItem{\textbf{Youth Registration Form:}  Built a serverless registration form for a church youth group of 50 teenagers, reducing paper waste and cutting costs.}
+        %   \resumeItem{\textbf{Color Fun Run:}  Created registration form for a charity event which integrated with the Paypal SDK and sent an email notification whenever someone registered. The event had 180+ attendees, and raised \$12,000 for clean water projects.}
+
+        % \resumeItemListEnd
+        
     \resumeSubHeadingListEnd
 
-
+%-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeItemListStart[leftmargin=0.15in]
+%     \resumeItem{\textbf{joneb.dev:} Personal website and blog created with Gatsby, React and TypeScript.}
+%     \resumeItem{\textbf{Playlist Converter:}  Web app that migrates playlists between Spotify and Apple Music that integrated with both platforms' REST APIs.}
+%     \resumeItem{\textbf{Youth Registration Form:}  Built a serverless registration form for a church youth group of 50 teenagers, reducing paper waste and cutting costs.}
+%     \resumeItem{\textbf{Color Fun Run:}  Created registration form for a charity event which integrated with the Paypal SDK and sent an email notification whenever someone registered. The event had 180+ attendees, and raised \$12,000 for clean water projects.}
+%   \resumeItemListEnd
 
 %
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Javascript, Typescript, Python, PHP, Bash, PostgreSQL, Java, HTML, CSS, Groovy} \\
-     \textbf{Frameworks}{: React, Express.js, Next.js, React Native, FastAPI, Symfony, Backstage} \\
+     \textbf{Languages}{: Typescript, Javascript, Python, PHP, Bash, PostgreSQL, Java, HTML, CSS, Groovy, C++} \\
+     \textbf{Frameworks and Libraries}{: React, Express.js, Next.js, React Native, FastAPI, Symfony, Knex.js, Backstage} \\
      \textbf{Developer Tools}{: Git, Docker, Kubernetes, Jenkins, Vite, AWS, Apigee, VSCode, Jenkins, Jira, Helm, Snyk, ArgoCD} \\
     }}
  \end{itemize}
